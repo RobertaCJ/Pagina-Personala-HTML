@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina personală - Roberta C. Joia</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+    <!-- HEADER + NAVIGAȚIE -->
+    <header>
+        <h1>Bine ai venit pe pagina mea personală!</h1>
+        <p>
+            Eu sunt <strong>Roberta C. Joia</strong>, studentă la <strong><li><a href="https://econ.ubbcluj.ro/" target="_blank">FSEGA</a></li> – <li><a href="https://www.ubbcluj.ro/ro/" target="_blank">UBB</a></li>, specializarea Informatică Economică</strong>. 
+        </p>
+        <p>
+            Sunt empatică, creativă, ambițioasă, visătoare, dar realistă, optimistă, pasionată și muncitoare.
+        </p>
+        
+    </header>
+
+    <!-- NAVIGAȚIE 2.0 -->
+    <nav>
+        <ul>
+            <li><a href="#despre">Despre mine</a></li> <!-- link intern -->
+            <li><a href="#proiecte">Proiecte</a></li> <!-- link intern -->
+            <li><a href="#contact">Contact</a></li> <!-- link intern -->
+        </ul>
+    </nav>
+
+    <!-- SECȚIUNEA DESPRE -->
+    <section id="despre">
+        <h2>Despre mine</h2>
+        <article>
+            <!-- Paragraf 1 -->
+            <p>
+                Sunt o persoană curioasă și pasionată de tehnologie și dezvoltare personală. 
+                Îmi place să transform ideile în proiecte concrete și să explorez noi oportunități de învățare.
+            </p>
+
+            <!-- Paragraf 2 -->
+            <p>
+                În timpul liber, ador să călătoresc, să fac fotografie, să joc jocuri video, să gătesc, să fac sport și să învăț limbi străine. 
+                Consider că echilibrul între muncă și pasiuni este esențial pentru o viață împlinită.
+            </p>
+
+            <!-- Imagine cu figcaption -->
+            <figure>
+                <img src="profil_generic.jpg" alt="Imagine generică profil" width="250">
+                <figcaption>Roberta C. Joia - profil generic</figcaption>
+            </figure>
+
+            <!-- Lista neordonată -->
+            <h3>Hobby-uri și pasiuni</h3>
+            <ul>
+                <li>Călătorii</li>
+                <li>Fotografie</li>
+                <li>Jocuri video</li>
+                <li>Gătit</li>
+                <li>Sport</li>
+                <li>Limbi străine</li>
+            </ul>
+
+            <!-- Lista ordonată -->
+            <h3>Obiective personale</h3>
+            <ol>
+                <li>Dezvoltarea competențelor în programare și analiză de date</li>
+                <li>Realizarea proiectelor practice din facultate</li>
+                <li>Explorarea a cât mai multe locuri noi și culturile lor</li>
+            </ol>
+        </article>
+    </section>
+
+    <!-- TABEL PROIECTE -->
+    <section id="proiecte">
+        <h2>Proiectele mele recente</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Titlu proiect</th>
+                    <th>Descriere</th>
+                    <th>An</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Florăria Robertei</td>
+                    <td>Bază de date realizată în Oracle APEX pentru gestionarea comenzilor florăriei.</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Showroom Auto</td>
+                    <td>Aplicație Java cu clase interne pentru gestiunea mașinilor dintr-un showroom.</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Catalog de Cărți</td>
+                    <td>Catalog digital implementat în Java cu iterator intern pentru gestionarea cărților.</td>
+                    <td>2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- FORMULAR CONTACT -->
+    <section id="contact">
+        <h2>Contactează-mă</h2>
+        <!-- Formular decorativ -->
+        <form action="#" method="post">
+            <label for="nume">Nume:</label><br>
+            <input type="text" id="nume" name="nume" placeholder="Introdu numele tău" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Introdu adresa ta de email" required><br><br>
+
+            <label for="mesaj">Mesaj:</label><br>
+            <textarea id="mesaj" name="mesaj" rows="5" placeholder="Scrie mesajul tău aici..." required></textarea><br><br>
+
+            <button type="submit">Trimite mesajul</button>
+        </form>
+    </section>
+
+    <!-- ASIDE + DETAILS -->
+    <aside>
+        <details>
+            <summary>Progresul meu academic</summary>
+            <p>Studii universitare – anul 2 din 3 (progres estimat: 66%)</p>
+            <progress value="66" max="100"></progress>
+        </details>
+    </aside>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Roberta C. Joia. Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+</html>
